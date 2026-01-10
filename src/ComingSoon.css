@@ -1,0 +1,46 @@
+body, html {
+  text-align: center;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+h1 {font-family: "Allerta Stencil", Helvetica, sans-serif;}
+
+/* responsive (vw) */
+.xlarge{font-size:clamp(3.5rem,6vw,5rem)!important}
+.small {font-size: clamp(1.2rem,3vw,1.5rem)!important}
+
+.bgimg {
+  height: 100dvh;
+  height: 100vh; /* fallback */
+  background-position: center;
+  background-size: cover;
+}
+
+.glass-box {
+  background: rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: 0px;
+  padding: 5px 40px;
+  width: 100%;
+}
+
+.slide {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0;
+  animation: fade 10s infinite;
+}
+@keyframes fade {
+  0%   { opacity: 0; }
+  10%  { opacity: 1; }
+  30%  { opacity: 1; }
+  40%  { opacity: 1; }
+  100% { opacity: 0; }
+}
