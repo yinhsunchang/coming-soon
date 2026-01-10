@@ -1,10 +1,9 @@
 import '../ComingSoon.css'
+import waiting1920 from '../assets/waiting1920.jpg'
+import paw from '../assets/paw.jpg'
 
 function Slideshow() {
-  const images: string[] = [
-    '/coming-soon/waiting1920.jpg',
-    '/coming-soon/paw.jpg',
-  ];
+  const images: string[] = [waiting1920, paw];
 
   return (
     <div>
