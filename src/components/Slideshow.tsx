@@ -2,8 +2,8 @@ import '../ComingSoon.css'
 
 function Slideshow() {
   const images: string[] = [
-    '/waiting1920.jpg',
-    '/paw.jpg',
+    '/coming-soon/waiting1920.jpg',
+    '/coming-soon/paw.jpg',
   ];
 
   return (
