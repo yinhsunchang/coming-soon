@@ -46,7 +46,7 @@ function Subscribe() {
     <>
     <form onSubmit={handleSubmit}>
       <input
-        className="input white round-large margin-right padding-small"
+        className="input white round-large margin-right padding-small mobile"
         style={{width:"250px", display:"inline-block"}}
         type="email"
         id="email"
@@ -55,7 +55,7 @@ function Subscribe() {
         onChange={(e) => setEmail(e.target.value)}
       />
       <button
-      className="input button black round-large margin-right padding-small" 
+      className="input button black round-large margin-right padding-small mobile" 
       style={{width:"125px", display:"inline-block"}}
       type="submit" 
       disabled={loading}>
