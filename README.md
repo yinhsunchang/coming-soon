@@ -36,14 +36,10 @@ All photos were taken and edited by me, highlighting a combination of my photogr
 
 ## Getting Started
 
-1. Clone the repo
+```bash
 git clone https://github.com/yinhsunchang/coming-soon.git
 cd coming-soon
-
-2. Install dependencies
 npm install
-
-3. Run the development server
 npm run dev
 
 ---
