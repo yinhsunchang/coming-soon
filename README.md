@@ -42,6 +42,7 @@ cd coming-soon
 npm install
 npm run dev
 ```
+
 ---
 
 ## Possible Improvements
