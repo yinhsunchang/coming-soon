@@ -41,7 +41,7 @@ git clone https://github.com/yinhsunchang/coming-soon.git
 cd coming-soon
 npm install
 npm run dev
-
+```
 ---
 
 ## Possible Improvements
