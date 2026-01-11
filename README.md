@@ -36,17 +36,6 @@ All photos were taken and edited by me, highlighting a combination of my photogr
 
 ## Getting Started
 
-```bash
-git clone https://github.com/yinhsunchang/coming-soon.git
-cd coming-soon
-npm install
-npm run dev
-```
-
----
-
-## Getting Started
-
 Follow the steps below to run the project locally.
 
 ```bash
@@ -57,23 +46,9 @@ cd coming-soon
 # 2. Install dependencies
 npm install
 
-# 3. Start the development server
+# 3. Run the development server
 npm run dev
 ```
-
----
-
-## Getting Started
-
-1. Clone the repo
-   - git clone https://github.com/yinhsunchang/coming-soon.git
-   - cd coming-soon
-
-2. Install dependencies
-   - npm install
-
-3. Run the development server
-   - npm run dev
 
 ---
 
