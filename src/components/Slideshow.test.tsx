@@ -1,5 +1,6 @@
 import { render } from "@testing-library/react";
-import Slideshow, { SLIDES, ANIMATION_INTERVAL } from "./Slideshow";
+import Slideshow from "./Slideshow";
+import { SLIDES, ANIMATION_INTERVAL } from "./slideshowConfig";
 
 const setup = () => {
   const { container } = render(<Slideshow />);
