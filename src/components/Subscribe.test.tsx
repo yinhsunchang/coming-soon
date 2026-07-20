@@ -18,7 +18,7 @@ afterEach(() => {
   vi.restoreAllMocks();
 });
 
-function setupInsert(error: any = null) {
+function setupInsert(error: unknown = null) {
   const insert = vi.fn().mockResolvedValue({ error });
   vi.mocked(supabase.from).mockReturnValue({
     insert,
