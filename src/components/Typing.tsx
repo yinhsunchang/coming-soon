@@ -1,19 +1,19 @@
 import "../ComingSoon.css";
 import { useState, useEffect } from "react";
 
-function Typing() {
-  const messages = [
-    "My shop is under construction...",
-    "Exciting content is coming soon...",
-    "Stay tuned!",
-  ];
+const MESSAGES = [
+  "My shop is under construction...",
+  "Exciting content is coming soon...",
+  "Stay tuned!",
+];
 
+function Typing() {
   const [messageIndex, setMessageIndex] = useState(0);
   const [charIndex, setCharIndex] = useState(0);
   const [text, setText] = useState("");
 
   useEffect(() => {
-    const current = messages[messageIndex];
+    const current = MESSAGES[messageIndex];
 
     let timeout: ReturnType<typeof setTimeout>;
 
@@ -25,7 +25,7 @@ function Typing() {
     } else {
       timeout = setTimeout(() => {
         setCharIndex(0);
-        setMessageIndex((prev) => (prev + 1) % messages.length);
+        setMessageIndex((prev) => (prev + 1) % MESSAGES.length);
       }, 1500);
     }
 
