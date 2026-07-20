@@ -1,11 +1,11 @@
-import '../ComingSoon.css'
+import "../ComingSoon.css";
 import { useState, useEffect } from "react";
 
 function Typing() {
   const messages = [
-    "My website is under construction...",
+    "My shop is under construction...",
     "Exciting content is coming soon...",
-    "Stay tuned!"
+    "Stay tuned!",
   ];
 
   const [messageIndex, setMessageIndex] = useState(0);
@@ -35,4 +35,4 @@ function Typing() {
   return <div style={{ minHeight: "1.5em" }}>{text}</div>;
 }
 
-export default Typing
+export default Typing;
