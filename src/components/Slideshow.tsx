@@ -1,24 +1,29 @@
-import '../ComingSoon.css'
-import waiting1920 from '../assets/waiting1920.jpg'
-import paw from '../assets/paw.jpg'
+import "../ComingSoon.css";
+import waiting1920 from "../assets/waiting1920.jpg";
+import paw from "../assets/paw.jpg";
+
+export const SLIDES = [
+  { id: 1, src: waiting1920 },
+  { id: 2, src: paw },
+];
+
+export const ANIMATION_INTERVAL = 5;
 
 function Slideshow() {
-  const images: string[] = [waiting1920, paw];
-
   return (
     <div>
-      {images.map((src, index) => (
+      {SLIDES.map((slide, index) => (
         <div
-          key={src}
+          key={slide.id}
           className="slide"
           style={{
-            backgroundImage: `url(${src})`,
-            animationDelay: `${index * 5}s`,
+            backgroundImage: `url(${slide.src})`,
+            animationDelay: `${index * ANIMATION_INTERVAL}s`,
           }}
         />
       ))}
     </div>
-  )
+  );
 }
 
-export default Slideshow
+export default Slideshow;
