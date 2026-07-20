@@ -2,7 +2,7 @@
 
 A visually appealing "Coming Soon" landing page built with Vite, React, and TypeScript. It features an animated slideshow, typing effect, countdown timer, email subscription, and a fully responsive layout—ideal for product launches or personal brands.
 
-All photos were taken and edited by me, highlighting a combination of my photography skills and modern frontend development expertise.
+All photos were taken and edited by me.
 
 ---
 
@@ -22,13 +22,14 @@ All photos were taken and edited by me, highlighting a combination of my photogr
 - Responsive typography using CSS clamp()
 - Typewriter text animation with rotating messages
 - Live countdown timer (days / hours / minutes / seconds)
-- Email subscription form including basic validation and mock API requests
+- Email subscription form with basic validation and Supabase integration
 
 ---
 
 ## Tech Stack
 
 - Frontend: Vite, React, TypeScript
+- Database: Supabase
 - Styling: CSS
 - Fonts & Icons: Google Fonts, Font Awesome
 
