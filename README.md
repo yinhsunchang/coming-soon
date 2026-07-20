@@ -1,6 +1,6 @@
 # Coming Soon Landing Page
 
-A visually appealing "Coming Soon" landing page built with Vite, React, and TypeScript. It features an animated slideshow, typing effect, countdown timer, email subscription, and a fully responsive layout—ideal for product launches or personal brands.
+A visually appealing **Coming Soon landing page** built with **Vite, React, and TypeScript**, fully tested with **Vitest** and **React Testing Library**. It features an animated slideshow, typing effect, countdown timer, email subscription, and a fully responsive layout—ideal for product launches or personal brands.
 
 All photos were taken and edited by me.
 
@@ -23,6 +23,7 @@ All photos were taken and edited by me.
 - Typewriter text animation with rotating messages
 - Live countdown timer (days / hours / minutes / seconds)
 - Email subscription form with basic validation and Supabase integration
+- Fully tested components using **Vitest + React Testing Library**
 
 ---
 
@@ -32,6 +33,7 @@ All photos were taken and edited by me.
 - Database: Supabase
 - Styling: CSS
 - Fonts & Icons: Google Fonts, Font Awesome
+- Testing: Vitest, React Testing Library
 
 ---
 
