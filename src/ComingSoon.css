@@ -11,7 +11,7 @@ h1 {
   font-family: "Allerta Stencil", Helvetica, sans-serif;
 }
 
-/* responsive (vw) */
+/* responsive */
 .xlarge {
   font-size: clamp(1rem, 4vw, 4rem) !important;
 }
